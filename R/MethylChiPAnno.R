@@ -42,12 +42,13 @@
   genome_id='hg19'
 
 # cmd arguments
-#  args <- commandArgs(trailingOnly = TRUE)
-#  methyl_file = args[1]
-#  ChiPseq_file =args[2]
-#  output_file = args[3]
-  methyl_file <- "test-data/input.csv"
-  ChiPseq_file <- "test-data/Galaxy3.bed"
+ args <- commandArgs(trailingOnly = TRUE)
+ methyl_file = args[1]
+ ChiPseq_file =args[2]
+ output_file = args[3]
+
+  # methyl_file <- "test-data/input.csv"
+  # ChiPseq_file <- "test-data/Galaxy3.bed"
 
   options(warn=-1)
 
@@ -101,6 +102,6 @@
 
 # save result, which contains overlaps between Methyl and ChiPseq data
     p <- as.data.frame(ChiPseq[subjectHits(peaks),])
-#    write.csv(p,  output_file, row.names=FALSE)
+    # write.csv(p,  output_file, row.names=FALSE)
   }
 
