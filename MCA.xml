@@ -1,0 +1,40 @@
+<tool id="MCA" name="MethylChiPAnno" version="1.16.2">
+  <requirements>
+   <requirement type="package" version="3.3.1">R</requirement>
+</requirements>
+<stdio>
+   <exit_code range="1:" />
+</stdio>
+  <command> Rscript $__tool_directory__/MethylChiPAnno.R "$Methyl_file" "$ChiPseq_file" "$output"</command>
+  <inputs>
+    <param optional="false" format="csv" name="Methyl_file" type="data" value="" help="GSM table of DNA methylation data." label="[required] methyl_file">
+      <validator type="empty_field" message="This field is required."/>
+    </param>
+    <param optional="false" format="bed" name="ChiPseq_file" type="data" value="" help="ChiPseq bed file." label="[required] ChiPseq_file">
+      <validator type="empty_field" message="This field is required."/>
+    </param>
+  </inputs>
+  <outputs>
+    <data format="csv" name="output" label="output.csv"/>
+  </outputs>
+  <tests>
+    <test>
+      <param name="test">
+      <element name="test-data">
+          <collection type="data">
+              <element name="Methyl_file" value="test-data/input.csv" />
+              <element name="ChiPseq_file" value="test-data/Galaxy2.bed" />
+          </collection>
+        </element>
+        </param>
+        <output format="csv" name="output" label="output.csv"/>
+        </test>
+    </tests>
+  <help>
+**Description**
+Peaks Annotation for methylation and ChiPseq data.
+</help>
+<citations>
+Peaks Annotation for methylation and ChiPseq data.
+</citations>
+</tool>
