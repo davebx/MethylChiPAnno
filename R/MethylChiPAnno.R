@@ -46,8 +46,8 @@
 #  methyl_file = args[1]
 #  ChiPseq_file =args[2]
 #  output_file = args[3]
-  methyl_file <- "tool_data/input.csv"
-  ChiPseq_file <- "tool_data/Galaxy3.bed"
+  methyl_file <- "test-data/input.csv"
+  ChiPseq_file <- "test-data/Galaxy3.bed"
 
   options(warn=-1)
 
