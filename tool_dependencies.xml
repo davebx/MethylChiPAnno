@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<tool_dependency>
+    <package name="R" version="3.2.1">
+        <repository name="package_r_3_2_1" owner="iuc" prior_installation_required="True" />
+    </package>
+    <package name="MethylChiPAnno" version="1.16.2">
+        <install version="1.0">
+            <actions>
+                <action type="setup_r_environment">
+                    <repository name="package_r_3_2_1" owner="iuc">
+                        <package name="R" version="3.2.1" />
+                    </repository>
+                    <package sha256sum="397c3c90af966f48eebe8f5d9e40c41b17541f0baaa102eec3ea4faae5a2bd49">
+                        https://depot.galaxyproject.org/software/munsell/munsell_0.4.3.tar.gz
+                    </package>
+                    <package sha256sum="0d8069eb48e91f6f6d6a9148f4e2dc5026cabead15dd15fc343eff9cf33f538f">
+                        https://depot.galaxyproject.org/software/labeling/labeling_0.3.tar.gz
+                    </package>
+                    <package sha256sum="762bcb9b5188274fd81d82f785cf2846a5acc61fad55e2ff8ec1502282c27881">
+                        https://depot.galaxyproject.org/software/DO.db/DO.db_2.9.tar.gz
+                    </package>
+                    <package sha256sum="de6f46918b40bcf4f8c03442f2a0411f1796794e0e7b00770ed0aac56601833d">
+                        https://bioarchive.galaxyproject.org/fgsea_1.1.2.tar.gz
+                    </package>
+                    <package sha256sum="7f1aa58085a030b7855a4e189bea2f17ff72333a1f884f0ab7f5af1fbe101397">
+                        https://bioarchive.galaxyproject.org/GOSemSim_2.1.2.tar.gz
+                    </package>
+                    <package sha256sum="dc64ed09b8b5f8d66ed4936cde3491974d6bc5178dd259b6eab7ef3936aa5602">
+                        https://depot.galaxyproject.org/software/igraph/igraph_1.0.1.tar.gz
+                    </package>
+                    <package sha256sum="f9e132c35d3af919cff291465d030817ff74e56eb6b2770390ae8566881b62ed">
+                        https://bioarchive.galaxyproject.org/qvalue_2.7.0.tar.gz
+                    </package>
+                    <package sha256sum="6d3783610379be4c5676d9236cf66276a166b5b96c18f2759e9b219758959b6b">
+                        https://depot.galaxyproject.org/software/reshape2/reshape2_1.4.2.tar.gz
+                    </package>
+                    <package sha256sum="642b88fb1fce7bac72a0038ce532b65b8a79dffe826fec25033cf386ab630cd3">
+                        https://depot.galaxyproject.org/software/scales/scales_0.4.1.tar.gz
+                    </package>
+                    <package sha256sum="51a74de64296d7cbed04a015a9f9725de95adb5e04301d1cd58190d7365fb104">
+                        https://bioarchive.galaxyproject.org/biomaRt_2.31.3.tar.gz
+                    </package>
+                    <package sha256sum="801e4869830ff3da1d38e41f5a2296a54fc10a7419c6ffb108582850c701e76f">
+                        https://depot.galaxyproject.org/software/gtable/gtable_0.2.0.tar.gz
+                    </package>
+                    <package sha256sum="ed8a8bd0591223f742be80fd1cd8c4a9618d0f04011ec95c272b61ea45193104">
+                        https://depot.galaxyproject.org/software/tibble/tibble_1.2.tar.gz
+                    </package>
+                    <package sha256sum="13738f55b2044184fe91f53d17516a445dfb508227527921218cda6f01f98dcb">
+                        https://depot.galaxyproject.org/software/lazyeval/lazyeval_0.2.0.tar.gz
+                    </package>
+                    <package sha256sum="8097ec0e4868f6bf746f821cff7842f696e874bb3a84f1b2aa977ecd961c3e4e">
+                        https://depot.galaxyproject.org/software/gdata/gdata_2.17.0.tar.gz
+                    </package>
+                    <package sha256sum="d32a73febf00930355cc00f3e4e71357412e0f163faae6a4bf7f552cacfe9af4">
+                        https://depot.galaxyproject.org/software/caTools/caTools_1.17.1.tar.gz
+                    </package>
+                    <package sha256sum="1363645a9a128f615aa0641dc5f5c5abd960b1c38320492366dad1e7a5c29a37">
+                        https://depot.galaxyproject.org/software/assertthat/assertthat_0.1.tar.gz
+                    </package>
+                    <package sha256sum="7d7bddc4303fafa99954182ccad938166d681499d4e9ae7001d21b0fd60d25c7">
+                        https://depot.galaxyproject.org/software/R6/R6_2.2.0.tar.gz
+                    </package>
+                    <package sha256sum="5718a14084e30e35288a9e021487df5518913b1ae28f4131b69e34fbdd6d6e07">
+                        https://depot.galaxyproject.org/software/BH/BH_1.62.0-1.tar.gz
+                    </package>
+                    <package sha256sum="44fe455a5bcdf48a4ece7a542f83e7749cf251dc1df6ae7634470240398c6818">
+                        https://depot.galaxyproject.org/software/gridExtra/gridExtra_2.2.1.tar.gz
+                    </package>
+                    <package sha256sum="782d7d055a108bd51000f3a89276581fe3762c2aa3cda1ebfc5cd160568caca9">
+                        https://bioarchive.galaxyproject.org/DOSE_3.1.2.tar.gz
+                    </package>
+                    <package sha256sum="e819fac1e75c2189b32257cbbc8f7d30598305ea6bd184e84c0ee99bb6f30bcf">
+                        https://bioarchive.galaxyproject.org/GenomeInfoDb_1.11.6.tar.gz
+                    </package>
+                    <package sha256sum="e21c82b478dee4ed8a3e24f7afe9a8f1820c98e53c135f846a589a361cfaad3b">
+                        https://bioarchive.galaxyproject.org/BiocGenerics_0.21.1.tar.gz
+                    </package>
+                    <package sha256sum="22d00d366f4c1a44e8ee06d32ac0b5177cc4fa5e6773c6d8ce2777cde09a2017">
+                        https://bioarchive.galaxyproject.org/S4Vectors_0.13.5.tar.gz
+                    </package>
+                    <package sha256sum="ac96118cf565d22154dbe56233428660504238c1145500f8987e1c94a1c20fa0">
+                        https://bioarchive.galaxyproject.org/IRanges_2.9.14.tar.gz
+                    </package>
+                    <package sha256sum="dc4dc74e8627d988381a9adddcdce98fa24d27c52b5822f4d23a730ff29454c8">
+                        https://bioarchive.galaxyproject.org/GenomicRanges_1.27.16.tar.gz
+                    </package>
+                    <package sha256sum="9d8355c85b54f4833ec71997905bf77d46b16b65a995720fdea230eb9c1603bb">
+                        https://bioarchive.galaxyproject.org/GenomicFeatures_1.27.4.tar.gz
+                    </package>
+                    <package sha256sum="64d7d9085573b439295bcb58ea4d39ba5d71911dbb501f1e7a30d13740ea2cda">
+                        https://depot.galaxyproject.org/software/ggplot2/ggplot2_2.2.0.tar.gz
+                    </package>
+                    <package sha256sum="343df84327ac3d03494992e79ee3afc78ba3bdc08af9a305ee3fb0a38745cb0a">
+                        https://depot.galaxyproject.org/software/gplots/gplots_3.0.1.tar.gz
+                    </package>
+                    <package sha256sum="be8718d24cd10f6e323dce91b15fc40ed88bccaa26acf3192d5e38fe33e15f26">
+                        https://depot.galaxyproject.org/software/gridBase/gridBase_0.4-7.tar.gz
+                    </package>
+                    <package sha256sum="86b6a51a92ddb3c78095e0c5dc20414c67f6e28f915bf0ee11406adad3e476f6">
+                        https://depot.galaxyproject.org/software/gtools/gtools_3.5.0.tar.gz
+                    </package>
+                    <package sha256sum="217164bdd04405c3280a0c8b2691f289287f9851fa8248648a5ae38f54962741">
+                        https://depot.galaxyproject.org/software/plotrix/plotrix_3.6-3.tar.gz
+                    </package>
+                    <package sha256sum="93d3b829f1c2d38e14a4f2fa7d6398fc6c1a9e4189b3e78bc38a0eb0e864454f">
+                        https://depot.galaxyproject.org/software/dplyr/dplyr_0.5.0.tar.gz
+                    </package>
+                    <package sha256sum="063de2b1174782a0b2b8ab7f04a0bdf3c43252cb67c685a9f8ef2b8e318352e9">
+                        https://depot.galaxyproject.org/software/TxDb.Hsapiens.UCSC.hg19.knownGene/TxDb.Hsapiens.UCSC.hg19.knownGene_3.2.2.tar.gz
+                    </package>
+                    <package sha256sum="0c9996310964d566c1aed962b267d14f110eab99c2d44da71569e7af31c8e3d5">
+                        https://depot.galaxyproject.org/software/UpSetR/UpSetR_1.3.1.tar.gz
+                    </package>
+                    <package sha256sum="bb37452ddc4d9381bee84cdf524582859af6a988e291debb71c8a2e120d02b2a">
+                        https://depot.galaxyproject.org/software/httpuv/httpuv_1.3.3.tar.gz
+                    </package>
+                    <package sha256sum="29fb7e075744bbffdff8ba4fce3860076de66f39a59a100ee4cfb4fc00722b49">
+                        https://depot.galaxyproject.org/software/htmltools/htmltools_0.3.5.tar.gz
+                    </package>
+                    <package sha256sum="c2373357ad76eaa7d03f9f01c19b5001a3e4db788acbca068b0abbe7a99ea64b">
+                        https://depot.galaxyproject.org/software/sourcetools/sourcetools_0.1.5.tar.gz
+                    </package>
+                    <package sha256sum="2395794738cf5de194da3f5c4eae239f353114b90573beaba6472e081261a8eb">
+                        https://depot.galaxyproject.org/software/shiny/shiny_0.14.2.tar.gz
+                    </package>
+                    <package sha256sum="239b17487ad9a7a0a9bf27f78d049f539fe637278344d56bc330f75e01fc2e57">
+                        https://depot.galaxyproject.org/software/jsonlite/jsonlite_1.1.tar.gz
+                    </package>
+                    <package sha256sum="fcc72115afb0eb43237da872754464f37ae9ae097f332ec7984149b5e3a82145">
+                        https://depot.galaxyproject.org/software/mime/mime_0.5.tar.gz
+                    </package>
+                    <package sha256sum="f901dad6bb70a6875a85da75bcbb42afffdcdf4ef221909733826bcb012d7c3d">
+                        https://depot.galaxyproject.org/software/curl/curl_2.3.tar.gz
+                    </package>
+                    <package sha256sum="f7a67c596b70732084a531eec8c12466b4b16f3429ba0a82a5104ace6a4554d1">
+                        https://depot.galaxyproject.org/software/openssl/openssl_0.9.5.tar.gz
+                    </package>
+                    <package sha256sum="89c9e2eb1210eb3c7d350403dc2e7a7e267254b8a52335953bf6fe294f09da4b">
+                        https://bioarchive.galaxyproject.org/interactiveDisplayBase_1.13.0.tar.gz
+                    </package>
+                    <package sha256sum="e7b90b90ee52c826e152efcfadf98e078fa75b65a6baaeb8fd25eeed2195730e">
+                        https://depot.galaxyproject.org/software/httr/httr_1.2.1.tar.gz
+                    </package>
+                    <package sha256sum="41a559846f6d44cc2dbcb3fc0becbc50d2766d3dc2aad7cfb97c1f9759ec0875">
+                        https://depot.galaxyproject.org/software/yaml/yaml_2.1.14.tar.gz
+                    </package>
+                    <package sha256sum="b94fd04c5da0da3a5bd982866f128998174b8342993c679333026269e1fe66c4">
+                        https://bioarchive.galaxyproject.org/AnnotationHub_2.7.8.tar.gz
+                    </package>
+                    <package sha256sum="c70784e894080ea26583fb4fbf85817c5dd13b726a65da8659e41fa8158b4b9f">
+                        https://depot.galaxyproject.org/software/ade4/ade4_1.7-4.tar.gz
+                    </package>
+                    <package sha256sum="b1dc5f79ccc076c2943b15fe4f339368afa241797b7e80c91b62132cfa66809c">
+                        https://depot.galaxyproject.org/software/segmented/segmented_0.5-1.4.tar.gz
+                    </package>
+                    <package sha256sum="284e2c73e2065b9e8cbc8dec3472a9beb24a773cd76c5ee41801cf52fb838a91">
+                        https://depot.galaxyproject.org/software/VennDiagram/VennDiagram_1.6.17.tar.gz
+                    </package>
+                    <package sha256sum="734b9636e5213d70bfbf4b3a9975a0568135363996ac5a3f7361c50ce5f69248">
+                        https://bioarchive.galaxyproject.org/BSgenome_1.43.1.tar.gz
+                    </package>
+                    <package sha256sum="f2b22c2dab2f28e9bcae9e5e744fd2a9f969230ed8ba7aa84debcd024ca74a2f">
+                        https://depot.galaxyproject.org/software/matrixStats/matrixStats_0.51.0.tar.gz
+                    </package>
+                    <package sha256sum="e701cc93a10885027e756c2252e982be00ca1f149b35a63066eced3c7d6410b6">
+                        https://bioarchive.galaxyproject.org/limma_3.31.6.tar.gz
+                    </package>
+                    <package sha256sum="9972c23e7900aca02b8f525f56c294dab32cb9bd223e8352425856d1098dc2ec">
+                        https://bioarchive.galaxyproject.org/multtest_2.31.0.tar.gz
+                    </package>
+                    <package sha256sum="c987afb4bbd1f7586dcc6552030e399b3be361365afc7f8c1a430c5237254101">
+                        https://bioarchive.galaxyproject.org/RBGL_1.51.0.tar.gz
+                    </package>
+                    <package sha256sum="1389076cfd90fcb6495cf1823ba5eb7770027fe37dde6c93d78f92fa23e629ae">
+                        https://bioarchive.galaxyproject.org/graph_1.53.0.tar.gz
+                    </package>
+                    <package sha256sum="a6dad4d9bf75f1e4c4d98de99e162ac7319ec827c28c93706cf1dba1ee871c4e">
+                        https://bioarchive.galaxyproject.org/regioneR_1.7.0.tar.gz
+                    </package>
+                    <package sha256sum="054ed05e54a37bfb912785212e4aa50187408b09037c254c0eba3a63f95d6208">
+                        https://bioarchive.galaxyproject.org/ProtGenerics_1.7.0.tar.gz
+                    </package>
+                    <package sha256sum="494e3024ec2c769613df1645e04ee40c0155bdb2215ffcc09f6e8756cee3ba2f">
+                        https://bioarchive.galaxyproject.org/ensembldb_1.99.7.tar.gz
+                    </package>
+                    <package sha256sum="12a270abbfe89afced2a256a5ce534b62cfdc92190b800336046d489d4f26466">
+                        https://depot.galaxyproject.org/software/seqinr/seqinr_3.3-3.tar.gz
+                    </package>
+                    <package sha256sum="8bbfdf82c8c2b5c73eb079127e198b6cb65c437bb36729f502c7bcd6037fdb16">
+                        https://depot.galaxyproject.org/software/idr/idr_1.2.tar.gz
+                    </package>
+                    <package sha256sum="fcedc27233ec2875e046941f0e2453fcfe22f07a3b5a086bebcfab8b1e748c2e">
+                        https://bioarchive.galaxyproject.org/ChIPpeakAnno_3.9.3.tar.gz
+                    </package>
+                    <package sha256sum="f524148fdb29aac3a178618f88718d3d4ac91283014091aa11a01f1c70cd4e51">
+                        https://depot.galaxyproject.org/software/locfit/locfit_1.5-9.1.tar.gz
+                    </package>
+                    <package sha256sum="a8f864bde055c7f1942da2445fcc41f79ce671bcb61b9b1b29b0b9270a206f7b">
+                        https://depot.galaxyproject.org/software/doRNG/doRNG_1.6.tar.gz
+                    </package>
+                    <package sha256sum="8e259c2b12446197d1152b83a81bab84ccb5a5b77021a9b5645dd4c63c804bd1">
+                        https://depot.galaxyproject.org/software/base64/base64_2.0.tar.gz
+                    </package>
+                    <package sha256sum="7602d450a01fc42a5630aadc960e2ebedb7bf45aa525133fde26c2e9c7dbb15d">
+                        https://bioarchive.galaxyproject.org/bumphunter_1.15.0.tar.gz
+                    </package>
+                    <package sha256sum="49da299139a47171c5b4ccdea79ffbbc152894e05d552e676f135147c0c9b372">
+                        https://depot.galaxyproject.org/software/beanplot/beanplot_1.2.tar.gz
+                    </package>
+                    <package sha256sum="d8560a9cf0e32625c65bf19e27e5dbee2fc32ad7ac795bb59589d01d2194b291">
+                        https://depot.galaxyproject.org/software/nor1mix/nor1mix_1.2-2.tar.gz
+                    </package>
+                    <package sha256sum="13380930e78be3cfeaf478fd71c5f81057887e9b1cfd5fae04792b9c815ce3b7">
+                        https://bioarchive.galaxyproject.org/siggenes_1.49.0.tar.gz
+                    </package>
+                    <package sha256sum="2394aa76c81b7df9ebdbf6af42da598991b1cc530e2bd5840a3eca34068e28a2">
+                        https://bioarchive.galaxyproject.org/preprocessCore_1.37.0.tar.gz
+                    </package>
+                    <package sha256sum="c67c27b9dc23797e48794ebbb71168aa8c833dabdf6d0da1430dfbd2e263c61e">
+                        https://bioarchive.galaxyproject.org/illuminaio_0.17.0.tar.gz
+                    </package>
+                    <package sha256sum="eb71d46b42eb9b2543a53db8efb9217f31a1f5dd4244a9f2da1e1eb483b3c82e">
+                        https://depot.galaxyproject.org/software/mclust/mclust_5.2.tar.gz
+                    </package>
+                    <package sha256sum="8647a080b70bedbaa4ac2a372eec8eb75d8b489ae3135efc3c75c407672fe2f7">
+                        https://bioarchive.galaxyproject.org/genefilter_1.57.0.tar.gz
+                    </package>
+                    <package sha256sum="d89db98ea1025e38d59daeff965dd8174bbb94a961cb966a83760ac1a87a36b8">
+                        https://depot.galaxyproject.org/software/reshape/reshape_0.8.6.tar.gz
+                    </package>
+                    <package sha256sum="d999620688354c283de5bb305203f5db70271b4dfdc23577cae8c2ba94c9e349">
+                        https://depot.galaxyproject.org/software/quadprog/quadprog_1.5-5.tar.gz
+                    </package>
+                    <package sha256sum="cd26dbd60b2e2060541c4bb579ec1e0f6c262501431460b096b5fef323204432">
+                        https://bioarchive.galaxyproject.org/GEOquery_2.41.0.tar.gz
+                    </package>
+                    <package sha256sum="bee70645c7cc88250761092762a9d293b4644f311047baecf49fde766d3059bc">
+                        https://bioarchive.galaxyproject.org/Biobase_2.35.0.tar.gz
+                    </package>
+                    <package sha256sum="531aa7042bad9fc72d4b6868cc9f78fe24f5c27e36703c6be78d5eaf1b828ca1">
+                        https://bioarchive.galaxyproject.org/minfi_1.21.2.tar.gz
+                    </package>
+                    <package sha256sum="c6133611cc991dfc17410d06a9ddcc6dcff0153bceffdf7d5a9b7dc42f31afa6">
+                        https://depot.galaxyproject.org/software/org.Hs.eg.db/org.Hs.eg.db_3.4.0.tar.gz
+                    </package>
+                    <package sha256sum="605aa3643588a2f40a942fa760b92662060a0dfedb26b4e4cd6f1a78b703093f">
+                        https://depot.galaxyproject.org/software/FDb.InfiniumMethylation.hg19/FDb.InfiniumMethylation.hg19_2.2.0.tar.gz
+                    </package>
+                    <package sha256sum="cf61732ef9b38ecb6579055d1cd145198ad23a5a9ae4378f94a1494e6c56c884">
+                        https://depot.galaxyproject.org/software/data.table/data.table_1.10.0.tar.gz
+                    </package>
+                    <package sha256sum="d47be4430a1c343c20f9d3f67b8511506904e46be13ea4199769f012f1449209">
+                        https://depot.galaxyproject.org/software/GO.db/GO.db_3.4.0.tar.gz
+                    </package>
+                    <package sha256sum="dfccd4b4d6ec90cd7628fd128d2456d792f406cee4d32b13448dcb0ffe4ab056">
+                        https://depot.galaxyproject.org/software/NMF/NMF_0.20.6.tar.gz
+                    </package>
+                    <package sha256sum="7fa594d9576592e393283ec4fc79fd72128f663bd516e05651957ce1e6fe3c38">
+                        https://depot.galaxyproject.org/software/colorspace/colorspace_1.3-1.tar.gz
+                    </package>
+                    <package sha256sum="31151eaf36f70bdc1172da5ff5088ee51cc0a3db4ead59c7c38c25316d580dd1">
+                        https://depot.galaxyproject.org/software/dichromat/dichromat_2.0-0.tar.gz
+                    </package>
+                    <package sha256sum="7a4957c66ff622d7d1456adfbb728c60d406cdb2a754979797f9dcb0dc8fee99">
+                        https://depot.galaxyproject.org/software/fastmatch/fastmatch_1.0-4.tar.gz
+                    </package>
+                    <package sha256sum="5183e8dd7943df11c0f44460566adf06c03d5320f142699298f516d423b06ce1">
+                        https://depot.galaxyproject.org/software/irlba/irlba_2.1.2.tar.gz
+                    </package>
+                    <package sha256sum="19ad78c16bd5757333e7abbd5eebcec081deb494c9a4b6eec6919a3747b3386f">
+                        https://depot.galaxyproject.org/software/pkgmaker/pkgmaker_0.22.tar.gz
+                    </package>
+                    <package sha256sum="58a5c43b8012ca5e509fa29a8daf6f24f097b8eb021a723f6a9c33db1dd3f430">
+                        https://depot.galaxyproject.org/software/registry/registry_0.3.tar.gz
+                    </package>
+                    <package sha256sum="27019835b750f470b13dbb7fecd3b839a61b52774e23fffa191f919533768fb9">
+                        https://depot.galaxyproject.org/software/rngtools/rngtools_1.2.4.tar.gz
+                    </package>
+                </action>
+            </actions>
+        </install>
+        <readme>
+        </readme>
+    </package>
+</tool_dependency>
